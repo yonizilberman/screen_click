@@ -1,3 +1,3 @@
 module.exports = {
-publicPath: ‘/screen_click/’
+publicPath: process.env.NODE_ENV === 'production' ? '/screen_click/' : '/'
 }
